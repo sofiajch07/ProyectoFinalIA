@@ -29,12 +29,12 @@ affectnet/
 - **Nota:** El código está preparado para leer las carpetas con nombres en minúscula (happy, sad, anger, surprise, disgust, fear, neutral).
 
 ## Instrucciones para ejecutar el código en Kaggle
-El proyecto fue diseñado para ejecutarse en **Kaggle** con acelerador GPU (T4 o P100). Sigue estos pasos:
+El proyecto fue diseñado para ejecutarse en **Kaggle** con acelerador GPU. Sigue estos pasos:
 
 ### 1. Notebook en Kaggle
 - Abre este link: https://www.kaggle.com/code/sofiajch07/vit-emotion-recognition/notebook
 - Dale click en **Editar**
-- En **Settings** (icono de engranaje), activa **GPU** (T4 o P100).
+- Activa la **GPU**.
 - Aquí ya se encuentra el **dataset** y el archivo de **requirements.txt**
 
 ### 2. Instalar dependencias
