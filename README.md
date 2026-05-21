@@ -32,27 +32,22 @@ affectnet/
 ## Instrucciones para ejecutar el código en Kaggle
 El proyecto fue diseñado para ejecutarse en **Kaggle** con acelerador GPU (T4 o P100). Sigue estos pasos:
 
-### 1. Subir el dataset a Kaggle
-- Ve a [Kaggle](https://www.kaggle.com/), inicia sesión.
-- Crea un nuevo **Dataset** (sección "Data" → "New Dataset").
-- Sube la carpeta `affectnet` con la estructura anterior. Nombra el dataset como `affectnet` (o el nombre que prefieras).
-- Una vez subido, ve a la pestaña "Data" de tu notebook y haz clic en "Add Data" para añadir este dataset.
-
-### 2. Notebook en Kaggle
+### 1. Notebook en Kaggle
 - Abre este link: https://www.kaggle.com/code/sofiajch07/vit-emotion-recognition/notebook
 - Dale click en **Editar**
 - En **Settings** (icono de engranaje), activa **GPU** (T4 o P100).
+- Aquí ya se encuentra el **dataset** y el archivo de **requirements.txt**
 
-### 3. Instalar dependencias
-- El notebook ya contiene celdas para instalar `timm`, `scikit-learn`, etc. Si prefieres usar el archivo `requirements.txt`, súbelo al entorno de Kaggle y ejecuta:
+### 2. Instalar dependencias
+- Ejecuta:
 ```python
 !pip install -r requirements.txt
 ```
 
-### 4. Ejecutar el notebook
+### 3. Ejecutar el notebook
 - Correr las celdas en orden
 
-### 5. Resultados
+### 4. Resultados
 Se guardan en la carpeta de outputs:
 
 training_curves.png — Curvas de pérdida y accuracy.
@@ -61,7 +56,7 @@ roc_curves.png — Curvas ROC por clase.
 attention_maps.png — Mapas de atención visualizados.
 final_metrics.json — Resumen de métricas (accuracy, F1, ROC-AUC, etc
 
-### Manigiest de uso de IA
+### Manifiesto de uso de IA
 Herramientas utilizadas: ChatGPT (OpenAI) – modelo GPT-4.
 Propósito del uso: Asistencia en la depuración de código, buenas prácticas y redacción.
 
