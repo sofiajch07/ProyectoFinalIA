@@ -33,9 +33,9 @@ El proyecto fue diseñado para ejecutarse en **Kaggle** con acelerador GPU. Sigu
 
 ### 1. Notebook en Kaggle
 - Abre este link: https://www.kaggle.com/code/sofiajch07/vit-emotion-recognition/notebook
-- Dale click en **Editar**
+- Dale click en **Editar**.
 - Activa la **GPU**.
-- Aquí ya se encuentra el **dataset** y el archivo de **requirements.txt**
+- Aquí ya se encuentra el **dataset** y el archivo de **requirements.txt**.
 
 ### 2. Instalar dependencias
 - Ejecuta:
@@ -44,24 +44,24 @@ El proyecto fue diseñado para ejecutarse en **Kaggle** con acelerador GPU. Sigu
 ```
 
 ### 3. Ejecutar el notebook
-- Correr las celdas en orden
+- Correr las celdas en orden.
 
 ### 4. Resultados
 Se guardan en la carpeta de outputs:
 
-training_curves.png — Curvas de pérdida y accuracy.
-confusion_matrix.png — Matriz de confusión.
-roc_curves.png — Curvas ROC por clase.
-attention_maps.png — Mapas de atención visualizados.
-final_metrics.json — Resumen de métricas (accuracy, F1, ROC-AUC, etc
+- training_curves.png — Curvas de pérdida y accuracy.
+- confusion_matrix.png — Matriz de confusión.
+- roc_curves.png — Curvas ROC por clase.
+- attention_maps.png — Mapas de atención visualizados.
+- final_metrics.json — Resumen de métricas (accuracy, F1, ROC-AUC, etc
 
 ### Manifiesto de uso de IA
 Herramientas utilizadas: ChatGPT (OpenAI) – modelo GPT-4.
 Propósito del uso: Asistencia en la depuración de código, buenas prácticas y redacción.
 
 Partes del proyecto soportadas por IA:
--Código: Corrección de errores en la captura de matrices de atención.
--Documentación: Redacción del presente README, generación de la estructura del repositorio.
+- Código: Corrección de errores en la captura de matrices de atención.
+- Documentación: Redacción del presente README, generación de la estructura del repositorio.
 - Experimentación: Recomendación de hiperparámetros (tasas de aprendizaje, patience, freeze_epochs).
 
 La IA se utilizó como apoyo para superar obstáculos técnicos específicos y para optimizar la claridad de la documentación.
