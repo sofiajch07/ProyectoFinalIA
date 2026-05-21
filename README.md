@@ -53,7 +53,7 @@ Se guardan en la carpeta de outputs:
 - confusion_matrix.png — Matriz de confusión.
 - roc_curves.png — Curvas ROC por clase.
 - attention_maps.png — Mapas de atención visualizados.
-- final_metrics.json — Resumen de métricas (accuracy, F1, ROC-AUC, etc
+- final_metrics.json — Resumen de métricas.
 
 ### Manifiesto de uso de IA
 Herramientas utilizadas: ChatGPT (OpenAI) – modelo GPT-4.
