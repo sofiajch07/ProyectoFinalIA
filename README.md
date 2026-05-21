@@ -2,8 +2,6 @@
 Proyecto final para la materia de Inteligencia Artificial que trata sobre el reconocimiento de emociones faciales basado en un "Vision Transformer Small (ViT-Small)" desarrollado por Sofía Jaramillo y Juan Esteban Toro.
 
 # Reconocimiento de Emociones Faciales con Vision Transformer (ViT)
-kaggle: https://www.kaggle.com/code/sofiajch07/vit-emotion-recognition/notebook
-
 Este proyecto implementa un modelo **Vision Transformer (ViT-Small/16)** preentrenado en ImageNet-21k para clasificar expresiones faciales en siete emociones: **Happy, Surprise, Sad, Anger, Disgust, Fear, Neutral**. Utiliza el dataset **AffectNet** y aplica técnicas avanzadas como fine-tuning en dos fases, WeightedRandomSampler, label smoothing, cosine annealing y early stopping.
 
 ## Estructura del repositorio
@@ -40,10 +38,10 @@ El proyecto fue diseñado para ejecutarse en **Kaggle** con acelerador GPU (T4 o
 - Sube la carpeta `affectnet` con la estructura anterior. Nombra el dataset como `affectnet` (o el nombre que prefieras).
 - Una vez subido, ve a la pestaña "Data" de tu notebook y haz clic en "Add Data" para añadir este dataset.
 
-### 2. Crear un nuevo notebook en Kaggle
-- Selecciona **File → New Notebook**.
+### 2. Notebook en Kaggle
+- Abre este link: https://www.kaggle.com/code/sofiajch07/vit-emotion-recognition/notebook
+- Dale click en **Editar**
 - En **Settings** (icono de engranaje), activa **GPU** (T4 o P100).
-- Copia el contenido del archivo `vit_emotion_recognition.ipynb` en el editor.
 
 ### 3. Instalar dependencias
 - El notebook ya contiene celdas para instalar `timm`, `scikit-learn`, etc. Si prefieres usar el archivo `requirements.txt`, súbelo al entorno de Kaggle y ejecuta:
