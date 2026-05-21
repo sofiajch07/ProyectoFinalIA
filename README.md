@@ -10,7 +10,7 @@ Este proyecto implementa un modelo **Vision Transformer (ViT-Small/16)** preentr
 
 - `vit_emotion_recognition.ipynb` — Notebook principal con todo el código (entrenamiento, evaluación, visualización).
 - `requirements.txt` — Dependencias necesarias.
-- `outputs/` — Carpeta donde se guardan los resultados (gráficas, métricas, mejor modelo).
+- `outputs` — Carpeta donde se guardan los resultados (gráficas, métricas, mejor modelo).
 
 ## Dataset: AffectNet
 
@@ -48,6 +48,7 @@ El proyecto fue diseñado para ejecutarse en **Kaggle** con acelerador GPU (T4 o
 - El notebook ya contiene celdas para instalar `timm`, `scikit-learn`, etc. Si prefieres usar el archivo `requirements.txt`, súbelo al entorno de Kaggle y ejecuta:
 ```python
 !pip install -r requirements.txt
+```
 
 ### 4. Ejecutar el notebook
 - Correr las celdas en orden
