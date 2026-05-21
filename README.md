@@ -61,7 +61,7 @@ Se guardan en la carpeta de outputs:
 
 Partes del proyecto soportadas por IA:
 - Código: Corrección de errores en la captura de matrices de atención.
-- Documentación: Redacción del presente README, generación de la estructura del repositorio.
+- Documentación: Redacción del presente README.
 - Experimentación: Recomendación de hiperparámetros (tasas de aprendizaje, patience, freeze_epochs).
 
 La IA se utilizó como apoyo para superar obstáculos técnicos específicos y para optimizar la claridad de la documentación.
