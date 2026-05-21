@@ -1,4 +1,4 @@
-# ProyectoFinalIA
+# Proyecto Final IA
 Proyecto final para la materia de IA de reconocimiento de emociones faciales basado en un "Vision Transformer Small (ViT-Small)" desarrollado por Sofía Jaramillo y Juan Esteban Toro.
 
 # Reconocimiento de Emociones Faciales con Vision Transformer (ViT)
