@@ -56,8 +56,8 @@ Se guardan en la carpeta de outputs:
 - final_metrics.json — Resumen de métricas.
 
 ### Manifiesto de uso de IA
-Herramientas utilizadas: ChatGPT (OpenAI) – modelo GPT-4.
-Propósito del uso: Asistencia en la depuración de código, buenas prácticas y redacción.
+- Herramientas utilizadas: ChatGPT (OpenAI) – modelo GPT-4.
+- Propósito del uso: Asistencia en la depuración de código, buenas prácticas y redacción.
 
 Partes del proyecto soportadas por IA:
 - Código: Corrección de errores en la captura de matrices de atención.
