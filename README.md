@@ -8,7 +8,6 @@ Este proyecto implementa un modelo **Vision Transformer (ViT-Small/16)** preentr
 
 - `vit_emotion_recognition.ipynb` — Notebook principal con todo el código (entrenamiento, evaluación, visualización).
 - `requirements.txt` — Dependencias necesarias.
-- `outputs` — Carpeta donde se guardan los resultados (gráficas, métricas, mejor modelo).
 
 ## Dataset: AffectNet
 
