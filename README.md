@@ -18,16 +18,17 @@ El dataset utilizado es **AffectNet**, que contiene aproximadamente 280,000 imá
 
 - **Enlace de descarga (Kaggle):** [AffectNet Dataset](https://www.kaggle.com/datasets/mstjebashazida/affectnet)
 - **Estructura esperada dentro del archivo descargado:**
-- affectnet/
+```text
+affectnet/
 ├── Train/
-│ ├── happy/
-│ ├── sad/
-│ ├── anger/
-│ ├── ... (resto de emociones)
+│   ├── happy/
+│   ├── sad/
+│   ├── anger/
+│   └── ... (resto de emociones)
 ├── Test/
-│ ├── happy/
-│ ├── ...
-
+│   ├── happy/
+│   └── ...
+```
 - **Nota:** El código está preparado para leer las carpetas con nombres en minúscula (happy, sad, anger, surprise, disgust, fear, neutral).
 
 ## Instrucciones para ejecutar el código en Kaggle
